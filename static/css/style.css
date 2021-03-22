@@ -1,0 +1,85 @@
+/* navbar */
+.nav-bar {
+    margin-left: auto;
+    text-align: right;
+    background-color: black;  
+}
+
+nav {
+    width: 50%;
+    margin-left: auto; 
+    padding: 20px;
+}
+
+.nav-item {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.nav-item:hover {
+    background-color: grey;
+}
+
+/* Home page */
+.home-title {
+    text-align: center;
+}
+
+/* login/signup page */
+.login {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.login-title{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 5%;
+}
+
+.form-error {
+    color: red;
+}
+
+.field {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: rgb(233, 233, 233);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.login-button {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 91%;
+    background-color: black;
+    color: white;
+}
+
+.login-button:hover {
+    background-color: grey;
+}
+

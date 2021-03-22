@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block head%}
+    <title>Login</title>
+{% endblock %}
+{% block body %}
+    <div class="login">
+        <div class="login-wrapper">
+            <div class="login-title">
+                <h3>Login</h3>
+            </div>
+            <form action="/login" method="POST">
+                {% with message = get_flashed_messages() %}
+                    {% if message %}
+                        <div class="field">
+                            <p class="form-error">{{message[0]}}</p>
+                        </div>
+                    {% endif %}
+                {% endwith %}
+                <div class="field">
+                    <input type="text" name="username" placeholder="Your username">
+                </div>
+                <div class="field">
+                    <input type="password" name="password" placeholder="Your password">
+                </div>
+                <div class="button-field">
+                    <button class="login-button">Log in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
